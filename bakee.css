@@ -574,8 +574,9 @@ footer {
   color: var(--color-text-muted);
 }
 
+.margin-top-large { margin-top: var(--space-6); }
 footer .brand { margin-bottom: var(--space-3); }
-footer h3 { font-size: var(--text-sm); margin-bottom: var(--space-3); }
+.footer-heading { font-size: var(--text-sm); margin-bottom: var(--space-3); }
 
 @media (max-width: 980px) {
   .hero-inner,
